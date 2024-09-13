@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MiniGame_SisGame.unity
+- path: Assets/Scenes/MiniGame_LilBro.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
