@@ -3876,6 +3876,7 @@ MonoBehaviour:
   currentHeader: {fileID: 0}
   HeaderPanel: {fileID: 1615653859}
   arrows: {fileID: 0}
+  currentLines: 0
 --- !u!1 &1692114066
 GameObject:
   m_ObjectHideFlags: 0

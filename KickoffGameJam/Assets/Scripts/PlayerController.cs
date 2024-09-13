@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "Dialogue")
         {
             canSpeak = true;
+            textSystem.currentLines = 0;
             textSystem.sign = collision.gameObject.GetComponent<SignDialogue>();
         }
     }

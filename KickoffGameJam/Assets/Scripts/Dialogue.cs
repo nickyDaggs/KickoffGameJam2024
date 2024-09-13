@@ -31,7 +31,10 @@ public class Dialogue : MonoBehaviour
     public GameObject HeaderPanel;
 
     public arrowManager arrows;
-    
+
+
+    public int currentLines = 0;
+
     // Start is called before the first frame 
     void Start()
     {
@@ -139,13 +142,25 @@ public class Dialogue : MonoBehaviour
         textBox2.enabled = false;
         
         textHeader.enabled = true;
-        Lines = sign.Lines;
+        if(currentLines == 0)
+        {
+            Lines = sign.Lines;
+        } else
+        {
+            Lines = sign.nextLines[currentLines - 1].lines;
+        }
+
+        
+        
         StartCoroutine("Text");
         HeaderPanel.SetActive(true);
-        HeaderPanel.transform.GetChild(0).GetComponent<Image>().sprite = sign.headers[0];
-        currentHeader = sign.headers[0];
+        HeaderPanel.transform.GetChild(0).GetComponent<Image>().sprite = sign.headers[currentLines];
+        currentHeader = sign.headers[currentLines];
         textHeader.text = currentHeader.name + ":";
-        //player.controller.enabled = false;
+
+
+        //player.enabled = false;
+
         //player.animatorOff = true;
 
     }
@@ -176,7 +191,8 @@ public class Dialogue : MonoBehaviour
         textBox2.enabled = false;
         textHeader.enabled = false;
         HeaderPanel.SetActive(false);
-        player.moveSpeed = player.storedSpeed;
+        //
+        currentLines++;
         Action t = sign.actionToDo;
         DoAction();
         //sign = null;
@@ -184,25 +200,25 @@ public class Dialogue : MonoBehaviour
         //player.animatorOff = false;
         Lines = new List<string>();
         skip = false;
-        if (sign.nextLines.Count > 0)
+        if (sign.nextLines.Count - 1 >= currentLines - 1)
         {
-            sign.Lines = sign.nextLines[0].lines;
-            if (sign.nextLines[0].act != Action.None)
+            //sign.Lines = sign.nextLines[0].lines;
+            if (sign.nextLines[currentLines - 1].act != Action.None)
             {
                 sign.action = true;
-                sign.actionToDo = sign.nextLines[0].act;
+                sign.actionToDo = sign.nextLines[currentLines - 1].act;
             }
             
             //sign.headers[0].GetComponent<Animator>().SetTrigger("On");
             //lastHeader = currentHeader;
-            currentHeader = sign.headers[0];
-            sign.nextLines.Remove(sign.nextLines[0]);
-            sign.headers.Remove(sign.headers[0]);
+            currentHeader = sign.headers[currentLines];
+            //sign.nextLines.Remove(sign.nextLines[currentLines - 1]);
+            //sign.headers.Remove(sign.headers[currentLines - 1]);
             textHeader.text = currentHeader.name + ":";
             TurnOn();
         } else
         {
-            
+            player.moveSpeed = player.storedSpeed;
         }
     }
     public void DoAction()

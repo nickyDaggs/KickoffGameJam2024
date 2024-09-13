@@ -5317,7 +5317,7 @@ MonoBehaviour:
     turnLimit: 1
   - pipeObject: {fileID: 265865133}
     turns: 0
-    turnLimit: 1
+    turnLimit: 3
   - pipeObject: {fileID: 763113249}
     turns: 0
     turnLimit: 1

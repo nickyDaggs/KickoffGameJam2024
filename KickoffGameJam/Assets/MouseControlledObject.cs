@@ -12,9 +12,11 @@ public class MouseControlledObject : MonoBehaviour
     public float xOffset;
     public float yOffset;
     // Start is called before the first frame update
-    public void StartMove()
+    public void StartMove(GameObject but)
     {
         moving = true;
+        but.SetActive(false);
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -23,7 +25,6 @@ public class MouseControlledObject : MonoBehaviour
         if(moving)
         {
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePosition.z = Camera.main.transform.position.z + Camera.main.nearClipPlane;
             transform.position = new Vector2(mousePosition.x + xOffset, mousePosition.y + yOffset);
         }
     }

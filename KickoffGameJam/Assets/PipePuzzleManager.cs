@@ -22,18 +22,18 @@ public class PipePuzzleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        for(int i = 0; i < pipesStored.Count; i++)
+        for (int i = 0; i < pipesStored.Count; i++)
         {
             int number = i;
 
             pipeRandPress(number);
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 
     public void pipePress(int pipeNum)
@@ -70,7 +70,7 @@ public class PipePuzzleManager : MonoBehaviour
             change.pipeObject.Rotate(0, 0, 90);
         }
 
-        CheckPipes();
+        
     }
 
     void CheckPipes()
@@ -92,7 +92,7 @@ public class PipePuzzleManager : MonoBehaviour
         {
             foreach(Pipe pipeObj in pipesStored)
             {
-                pipeObj.pipeObject.GetComponent<Button>().interactable = false;
+                //pipeObj.pipeObject.GetComponent<Button>().interactable = false;
             }
         }
     }
