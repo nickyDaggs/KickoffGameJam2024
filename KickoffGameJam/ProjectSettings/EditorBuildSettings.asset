@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6a98f3c4f671a784f999c889dfd6b50b
+  - enabled: 1
+    path: Assets/Scenes/MainHub.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_LilBro.unity
+    guid: 761a5c6554a943e4a88e387f05bfcb35
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_Twins.unity
+    guid: f71793bc6838fb3409b8be94f0f5c932
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_NerdGame.unity
+    guid: 29a0ea5c912277449a39d2b50c0dab55
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_OldBro.unity
+    guid: d64eeb4cf243c76408a8250f5b874ade
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_SisGame.unity
+    guid: 2fe45dec1e6db3642869f20eadef6006
   m_configObjects: {}

@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: d00e827e4339511468490273d80ea476
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1004371840035274789
+    second: twinsWords_0
+  - first:
+      213: 5748927938074556617
+    second: twinsWords_1
+  - first:
+      213: -8728085865160939489
+    second: twinsWords_2
+  - first:
+      213: -2757428991445705096
+    second: twinsWords_3
+  - first:
+      213: -4804408935395297161
+    second: twinsWords_4
+  - first:
+      213: -7384588623361459957
+    second: twinsWords_5
+  - first:
+      213: -3983052532286384232
+    second: twinsWords_6
+  - first:
+      213: -4890235553530410160
+    second: twinsWords_7
+  - first:
+      213: -3037667980576747109
+    second: twinsWords_8
+  - first:
+      213: 5882512336253235543
+    second: twinsWords_9
+  - first:
+      213: -1312316142450397111
+    second: twinsWords_10
+  - first:
+      213: 98765117701636536
+    second: twinsWords_11
+  - first:
+      213: 8640936505377110357
+    second: twinsWords_12
+  - first:
+      213: 4388984068481978144
+    second: twinsWords_13
+  - first:
+      213: -2043908741003269260
+    second: twinsWords_14
+  - first:
+      213: -8110213092585736030
+    second: twinsWords_15
+  - first:
+      213: 348920251348584446
+    second: twinsWords_16
+  - first:
+      213: -2419194483044041766
+    second: twinsWords_17
+  - first:
+      213: -1433025547750396788
+    second: twinsWords_18
+  - first:
+      213: -764361075593854129
+    second: twinsWords_19
+  - first:
+      213: -7228919324167604511
+    second: twinsWords_20
+  - first:
+      213: 2067677051739975446
+    second: twinsWords_21
+  - first:
+      213: -8563490976026024512
+    second: twinsWords_22
+  - first:
+      213: -7016666793164067695
+    second: twinsWords_23
+  - first:
+      213: -5420961282692456284
+    second: twinsWords_24
+  - first:
+      213: 4492814589235269982
+    second: twinsWords_25
+  - first:
+      213: 3200779811983553255
+    second: twinsWords_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: twinsWords_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 396
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52045bbfdde30fd00800000000000000
+      internalID: 1004371840035274789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 396
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8b044208b48cf40800000000000000
+      internalID: 5748927938074556617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 396
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1869f5262c9fd680800000000000000
+      internalID: -8728085865160939489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 394
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed38711f4abb9d0800000000000000
+      internalID: -2757428991445705096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 397
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778fc02378f435db0800000000000000
+      internalID: -4804408935395297161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 283
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b093624b5cba48990800000000000000
+      internalID: -7384588623361459957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 281
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897995333da59b8c0800000000000000
+      internalID: -3983052532286384232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 285
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b85d37ca4622cb0800000000000000
+      internalID: -4890235553530410160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 285
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b911520e01908d5d0800000000000000
+      internalID: -3037667980576747109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 291
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513a3d8dc1e2a150800000000000000
+      internalID: 5882512336253235543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 291
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940bb30eb67b9cde0800000000000000
+      internalID: -1312316142450397111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_11
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 293
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b14ecce952ee5100800000000000000
+      internalID: 98765117701636536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_12
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 292
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55935b158f5cae770800000000000000
+      internalID: 8640936505377110357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 178
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f87b6a1cdc8ec30800000000000000
+      internalID: 4388984068481978144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b2f2344d392a3e0800000000000000
+      internalID: -2043908741003269260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 182
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a874bb792cb27f80800000000000000
+      internalID: -8110213092585736030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 182
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78294be1d97d400800000000000000
+      internalID: 348920251348584446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 181
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb33936f6b4d6ed0800000000000000
+      internalID: -2419194483044041766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 67
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c27485bdedc1ce0800000000000000
+      internalID: -1433025547750396788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 69
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c719c6a17465f0800000000000000
+      internalID: -764361075593854129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 69
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e67805dc28bdab90800000000000000
+      internalID: -7228919324167604511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_21
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 71
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f2033d25dd1bc10800000000000000
+      internalID: 2067677051739975446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 25
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5a4b0245e582980800000000000000
+      internalID: -8563490976026024512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_23
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 25
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c2d2e3abacf9e90800000000000000
+      internalID: -7016666793164067695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_24
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 25
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a068f35f60e4c4b0800000000000000
+      internalID: -5420961282692456284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_25
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 24
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e519f01a01fa95e30800000000000000
+      internalID: 4492814589235269982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twinsWords_26
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 24
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27581d7447b6c20800000000000000
+      internalID: 3200779811983553255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dialogue
   - NextMaze
+  - PlayerMain
   layers:
   - Default
   - TransparentFX

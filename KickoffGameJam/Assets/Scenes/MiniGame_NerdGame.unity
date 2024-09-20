@@ -229,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.7, y: 180.1}
+  m_AnchoredPosition: {x: -223.59996, y: 122.20001}
   m_SizeDelta: {x: 482.6046, y: 419.73322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66856994
@@ -552,7 +552,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000056744, y: -108}
-  m_SizeDelta: {x: 185.1029, y: 64.99982}
+  m_SizeDelta: {x: 300, y: 64.99982}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476571504
 MonoBehaviour:
@@ -751,6 +751,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &605962751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 605962752}
+  - component: {fileID: 605962754}
+  - component: {fileID: 605962753}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &605962752
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605962751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750351320}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -223.6, y: 338}
+  m_SizeDelta: {x: 319.20898, y: 84.24597}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &605962753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605962751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'CRACK THE MEDICINE:'
+--- !u!222 &605962754
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605962751}
+  m_CullTransparentMesh: 0
 --- !u!1 &699630786
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +1005,9 @@ RectTransform:
   - {fileID: 66856993}
   - {fileID: 954697598}
   - {fileID: 1187337367}
+  - {fileID: 1956066942}
+  - {fileID: 605962752}
+  - {fileID: 1586871692}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1640,8 +1721,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1830,6 +1911,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1586871691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586871692}
+  m_Layer: 5
+  m_Name: First Part
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1586871692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586871691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750351320}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1608485612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,15 +1973,15 @@ RectTransform:
   m_GameObject: {fileID: 1608485612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 750351320}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: -138}
-  m_SizeDelta: {x: 312.9215, y: 452.28754}
+  m_AnchoredPosition: {x: 43, y: -95}
+  m_SizeDelta: {x: 3000.0002, y: 3000.0002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1608485614
 MonoBehaviour:
@@ -1886,7 +2002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a14c704785058044b65b67313d5d36f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ae3cfa183614bd4189f1505bb3fa62c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2098,6 +2214,7 @@ MonoBehaviour:
   currentHeader: {fileID: 0}
   HeaderPanel: {fileID: 1615653859}
   arrows: {fileID: 0}
+  currentLines: 0
 --- !u!1 &1675083594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,7 +2285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232.10002, y: -172.1}
+  m_AnchoredPosition: {x: -222, y: -230}
   m_SizeDelta: {x: 576.4314, y: 335.8479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763780665
@@ -2251,6 +2368,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bbc8b1427a4d14088ebbc6aa0d096f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  articles:
+  - time: 8
+    title: Elon Musk marries AI Wife in Epic Own to Liberals
+  - time: 8
+    title: AI chatbots can now shit their pants more realisticly
+  - time: 8
+    title: 'NFT of a Banana Now Exists: How to Buy It First'
+  - time: 8
+    title: Elon Musk Talks About Anime to Make Him Relatable (You'll Still Want Him
+      to Be Assassinated)
+  - time: 8
+    title: How Can AI Be Used Purely For Fun And Not For Profit Whatsoever
+  - time: 10
+    title: Grok Becomes Sentient and Can Now Help You With Your Divorce (Specifically
+      Only For Men)
+  - time: 10
+    title: Twitter Circlejerk of Elon Musk Become Beautiful Polyamorous Couple
+  - time: 10
+    title: NFTs Are Totally Coming Back! Waste Your Life Savings on a Literal Picture
+      of a Piece of Shit
+  - time: 10
+    title: Reddit Is Officially Declared The Greatest Social Media Platform By That
+      Creepy Dude You Knew From High School
+  - time: 10
+    title: Twitter is Still Making Millions of Dollars! (Ignore That It Isn't Billions)
+  - time: 12
+    title: Grok Can Become Your New Biggest Friend Forever, Please Use It
+  - time: 12
+    title: 'Nice Guys: How to AI Generate Your Dating Profile For Success (Best Prompts!)'
+  - time: 12
+    title: 'Metaverse Is Taking Over: Succumb To Your Digital Hell!'
+  - time: 12
+    title: I Replaced My Workers With AI and Have a Fulfilling Life (Empathy Not
+      Needed!)
+  - time: 12
+    title: Stealing From Passionate Creators and More Moral Correct Advice to AI
+  - time: 15
+    title: Funny AI Pictures Memes Big Owns Top Ten Epic
+  - time: 15
+    title: Buy DogeCoin and Win Big! Completely Secure Investment For Yourself
+  - time: 15
+    title: 'Stories From Visionaries: How Investing in AI Can Never Look Bad At All'
+  - time: 15
+    title: Grok Is Now The Greatest AI Ever (It Can Say Really Offensive Stuff)
+  - time: 15
+    title: Funny AI Political Photos (Totally Not Weird or Bias)
+  - time: 8
+    title: 'Top Ten Steps to Abusing Your Wealth and Privilege: The Musk Perspective'
+  articleButtons:
+  - {fileID: 1933677976}
+  - {fileID: 1981866279}
+  - {fileID: 476571504}
+  timer: {fileID: 954697599}
 --- !u!1 &1933677974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2458,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 185.1029, y: 65}
+  m_SizeDelta: {x: 300, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1933677976
 MonoBehaviour:
@@ -2370,6 +2540,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933677974}
   m_CullTransparentMesh: 0
+--- !u!1 &1956066941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956066942}
+  - component: {fileID: 1956066944}
+  - component: {fileID: 1956066943}
+  m_Layer: 5
+  m_Name: TextArticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1956066942
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956066941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750351320}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 258.91, y: 347.84}
+  m_SizeDelta: {x: 319.20898, y: 84.24597}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1956066943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956066941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'DISTRACT HIM WITH DUMBASS ARTICLES ON HIS PHONE:'
+--- !u!222 &1956066944
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956066941}
+  m_CullTransparentMesh: 0
 --- !u!1 &1981866277
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,7 +2655,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000035286, y: -23}
-  m_SizeDelta: {x: 185.1029, y: 65}
+  m_SizeDelta: {x: 300, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981866279
 MonoBehaviour:
