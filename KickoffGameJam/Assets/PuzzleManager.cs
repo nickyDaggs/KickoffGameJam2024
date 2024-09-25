@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -121,5 +122,10 @@ public class PuzzleManager : MonoBehaviour
         }
 
         
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene(1);
     }
 }

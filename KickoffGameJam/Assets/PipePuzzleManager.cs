@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PipePuzzleManager : MonoBehaviour
@@ -95,5 +96,10 @@ public class PipePuzzleManager : MonoBehaviour
                 //pipeObj.pipeObject.GetComponent<Button>().interactable = false;
             }
         }
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene(1);
     }
 }

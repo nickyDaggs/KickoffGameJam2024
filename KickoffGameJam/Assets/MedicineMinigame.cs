@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public enum ArticleType { Short = 8, Middle = 10, Long = 12, Longest = 15 }
@@ -25,7 +26,7 @@ public class MedicineMinigame : MonoBehaviour
     //float sliderTime;
 
 
-    void Start()
+    void StartGame()
     {
         GenerateArticles();
         StartArticle(10f);
@@ -81,5 +82,10 @@ public class MedicineMinigame : MonoBehaviour
             
             yield return null;
         }
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene(1);
     }
 }

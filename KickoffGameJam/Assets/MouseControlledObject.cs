@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MouseControlledObject : MonoBehaviour
 {
@@ -27,5 +28,10 @@ public class MouseControlledObject : MonoBehaviour
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector2(mousePosition.x + xOffset, mousePosition.y + yOffset);
         }
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene(1);
     }
 }
