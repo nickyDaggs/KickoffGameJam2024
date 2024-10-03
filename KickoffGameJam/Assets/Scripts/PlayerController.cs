@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,11 +12,19 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody2D rb;
 
-    Vector2 movement;
+    public Vector2 movement;
 
     public Dialogue textSystem;
 
     public bool canSpeak = false;
+
+    int sceneChange;
+
+    public Animator playerAnim;
+    public Animator popText;
+
+    public string textToPop;
+    public string textToPopTwo;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +37,11 @@ public class PlayerController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        if(Input.GetAxis("Horizontal") != 0)
+        {
+            playerAnim.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        }
+        
 
         if(Input.GetKeyDown(KeyCode.Space) && canSpeak)
         {
@@ -35,11 +50,21 @@ public class PlayerController : MonoBehaviour
             moveSpeed = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && canSpeak && sceneChange != 0)
         {
-            textSystem.TurnOn();
-            canSpeak = false;
-            moveSpeed = 0;
+            if (sceneChange == 4 && !GameManager.Instance.Sis_DONE)
+            {
+                popText.GetComponent<Text>().text = textToPop;
+                popText.SetTrigger("Pop");
+            } else if(sceneChange == 7 && !GameManager.Instance.FULLYDONE)
+            {
+                popText.GetComponent<Text>().text = textToPopTwo;
+                popText.SetTrigger("Pop");
+            }
+            else
+            {
+                SceneManager.LoadScene(sceneChange);
+            }
         }
     }
 
@@ -55,6 +80,7 @@ public class PlayerController : MonoBehaviour
             canSpeak = true;
             textSystem.currentLines = 0;
             textSystem.sign = collision.gameObject.GetComponent<SignDialogue>();
+            sceneChange = textSystem.sign.ending;
         }
     }
 

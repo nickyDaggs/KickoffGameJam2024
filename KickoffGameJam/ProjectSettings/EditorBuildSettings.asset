@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGame_SisGame.unity
     guid: 2fe45dec1e6db3642869f20eadef6006
+  - enabled: 1
+    path: Assets/Scenes/EndingScreen.unity
+    guid: 582dbe7a0f5d68e44be2b205859419ec
   m_configObjects: {}
