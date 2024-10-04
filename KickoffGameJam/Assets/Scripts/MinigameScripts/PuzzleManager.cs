@@ -23,6 +23,7 @@ public class PuzzleManager : MonoBehaviour
     public int BadCloudCount;
     public float BadCloudSpawn;
     public int BadCloudLimit;
+    public Slider cloudMeter;
 
      int curPuzzle = -1;
     public bool notSolved = true;
@@ -77,7 +78,6 @@ public class PuzzleManager : MonoBehaviour
         }
 
         curPuzzle++;
-        Debug.Log(curPuzzle);
         BadCloudSpots = BadCloudSpotsOG.ConvertAll(x => x.position);
         for (int i = puzzlePieceSpots.Count - 1; i > 0; i--)
         {
@@ -105,6 +105,7 @@ public class PuzzleManager : MonoBehaviour
 
     public void cloudButton(GameObject button)
     {
+        cloudMeter.value = BadCloudCount / BadCloudLimit;
         BadCloudCount--;
         BadCloudSpots.Add(button.transform.position);
         Destroy(button);
@@ -122,7 +123,8 @@ public class PuzzleManager : MonoBehaviour
             GameObject newCloud = Instantiate(BadCloudPrefab, CloudParent.transform);
             newCloud.transform.position = trans;
             newCloud.GetComponent<Button>().onClick.AddListener(() => cloudButton(newCloud));
-
+            cloudMeter.value = (float) BadCloudCount / BadCloudLimit;
+            
             BadCloudSpots.Remove(trans);
         }
 
