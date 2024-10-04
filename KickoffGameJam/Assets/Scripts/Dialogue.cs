@@ -218,9 +218,18 @@ public class Dialogue : MonoBehaviour
             TurnOn();
         } else
         {
+            
             player.moveSpeed = player.storedSpeed;
+            StartCoroutine(WaitToEnable());
         }
     }
+
+    IEnumerator WaitToEnable()
+    {
+        yield return new WaitForSeconds(0.2f);
+        player.canSpeak = true;
+    }
+
     public void DoAction()
     {
         switch(sign.actionToDo)

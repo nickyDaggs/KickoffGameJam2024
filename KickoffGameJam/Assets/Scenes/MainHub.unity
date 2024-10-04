@@ -276,17 +276,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
+  - OMG, this whole thing is so BORING!!!!!!!
+  - Nothing to laugh at, have fun with, or make a little content.
   nextLines:
   - lines:
-    - real real real
-    - faddssbajfsdbj
+    - I know right? Mom and Dad didn't even allow us to do a funeral livestream!
+      I swear we would've gotten the most views EVER for that.
+    - We better hope the algorithm keeps us afloat while we're stuck here.
+    act: 0
+  - lines:
+    - Ugh, yeah, I hope so. I've been missing all of our adoring fans that we have
+      healthy relationships with and don't promote any sort of parasocial connection.
+    - I guess the only benefit is that maybe people would look at us weird for making
+      content at a funeral.
+    act: 0
+  - lines:
+    - I guess you're right. Plus, all the stuff we gotta say to keep ourselves trending
+      can be draining.
+    - I don't even understand what half of some of the words we say even mean.
+    act: 0
+  - lines:
+    - Mmmhm, totally. We'd have probably rotted our brains if we became too obsessed
+      with it, teehee!
     act: 0
   headers:
-  - {fileID: 21300000, guid: 6c3f721aecb8708438bb126a5fad775e, type: 3}
-  - {fileID: 21300000, guid: d1434ef65aa3a5e4f89a223feccbaf16, type: 3}
+  - {fileID: 21300000, guid: 6d8688d5694911d478285f1d45e9535c, type: 3}
+  - {fileID: 21300000, guid: 15f84b60c1bc17c43b474d97061dc9e5, type: 3}
+  - {fileID: 21300000, guid: 6d8688d5694911d478285f1d45e9535c, type: 3}
+  - {fileID: 21300000, guid: 15f84b60c1bc17c43b474d97061dc9e5, type: 3}
+  - {fileID: 21300000, guid: 6d8688d5694911d478285f1d45e9535c, type: 3}
   action: 0
   actionToDo: 0
   objs: []
@@ -548,9 +566,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
+  - Ohhhhhhh dudeeee......
+  - man....... i miss you dude
+  - harold you were cool dude. the coolest, man.
+  - you were the dude. he was that guy. he really was.
+  - harold mannnnnnnnnnnnnn
+  - you were a real one
+  - ughhhhhhhh
+  - why man
   nextLines: []
   headers:
   - {fileID: 21300000, guid: d8f7b09e7f527dc488ae5a8f6b83fff3, type: 3}
@@ -1030,8 +1053,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000030398, y: -6.6}
-  m_SizeDelta: {x: 232.29971, y: 784.9862}
+  m_AnchoredPosition: {x: -0.0000030398, y: -72.8}
+  m_SizeDelta: {x: 232.29971, y: 917.32654}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354491804
 MonoBehaviour:
@@ -1054,10 +1077,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ea7f25500e8c0b640bd2b653f092369d, type: 3}
-    m_FontSize: 24
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1067,19 +1090,24 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'HUB DESCRIPTION:
 
+    Hey harold!
 
-    Walk with Arrow Keys.
+    Time to crash your own funeral
+    and bring your family a little bit of otherworldy karma.
 
 
-    Press Space to Talk
-    to someone.
+    Walk with Arrow
+    Keys.
+
+
+    Press Space to Talk to someone.
 
 
     Press Z to play a minigame.
 
 
-    Each minigame presents you
-    a situation where you can ruin someone''s time at the funeral.
+    Each
+    minigame presents you a situation where you can ruin someone''s time at the funeral.
 
 
     Completing
@@ -1173,9 +1201,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
+  - (Can't believe I missed a meeting for this...)
+  - (I'm not even sure if I can go to that party tonight either...)
+  - (I'm literally the oldest and doing the most for our family at Dad's company,
+    couldn't him and Mom have given me a break here?)
+  - (Not sure Harold would even want me here after everything...)
+  - (Whatever, let's just get through this. I'm a fucking millionaire, no time to
+    act all sad or pissed off.)
+  - (My money and image is more important than the bullshit going through my head.)
   nextLines: []
   headers:
   - {fileID: 21300000, guid: bcb1616b7a17dd448a0df1b896f5863c, type: 3}
@@ -1767,15 +1800,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
+  - Hmm, Gerald, don't you feel this is going on a bit long?
+  - Not sure if we needed to spend this much time on Harold of all people.
   nextLines:
   - lines:
-    - real real real
-    - faddssbajfsdbj
+    - Margaret, honey, be patient. From my experience, I know how important it is
+      to show humanity to the public.
+    - I wish I could not be here for longer too, especially since, uh, he wasn't
+      the greatest.
+    - But, I know my duties to keep things looking nice, so we must abide for now.
+    - If you want to worry a little less, I'll let you know that we're not losing
+      any money for this, I was able to just layoff a few thousand employees to keep
+      costs down.
+    act: 0
+  - lines:
+    - Ah, thank you Gerald. That eases my mind a bit. It just feels so odd since
+      Harold never really met our true expectations.
+    act: 0
+  - lines:
+    - Well, it happens sometimes. There's always a bad apple. Maybe he would've come
+      around one day, I know he had that cutthroat spirit in him at least.
+    - Or, well he used to...
     act: 0
   headers:
+  - {fileID: 21300000, guid: 090bd115825f9d243a022fc0474dc412, type: 3}
+  - {fileID: 21300000, guid: 32d38ef07d3c39547a02eaa52db8397a, type: 3}
   - {fileID: 21300000, guid: 090bd115825f9d243a022fc0474dc412, type: 3}
   - {fileID: 21300000, guid: 32d38ef07d3c39547a02eaa52db8397a, type: 3}
   action: 0
@@ -1923,17 +1972,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
+  - Gosh, this place is such a bore.
+  - We've got stuff to do and are still stuck here just for appearances.
+  - You agree with me honey?
   nextLines:
   - lines:
-    - real real real
-    - faddssbajfsdbj
+    - yeah
+    act: 0
+  - lines:
+    - Those bitches at FashionPassion better not make any moves against us while
+      we're here.
+    - I've been working too hard on our new clothing lineup for them to take that
+      all away from us.
+    act: 0
+  - lines:
+    - yeah
+    act: 0
+  - lines:
+    - All of it just makes me stressed, ya know?
+    - It's just so much pressure for someone like me to be so perfect and coordinated.
+    - I'm the best child, I've gotta meet expectations to the whole world.
+    - If I lose grasp, how can I get it back? You understand me honey?
+    act: 0
+  - lines:
+    - yeah
+    act: 0
+  - lines:
+    - Ugh, maybe I'll just need to calm down later...
+    - I'll feel better... I'll feel better... I'll feel better...
+    - I just gotta focus, and be great as always.
+    - 'I definitely don''t gotta rely on anything at all! '
+    - Hahaha, right, honey? Right???
+    act: 0
+  - lines:
+    - yeah
     act: 0
   headers:
-  - {fileID: 21300000, guid: 6c3f721aecb8708438bb126a5fad775e, type: 3}
-  - {fileID: 21300000, guid: d1434ef65aa3a5e4f89a223feccbaf16, type: 3}
+  - {fileID: 21300000, guid: 07f21ac3a50e2a94f87c416803d70215, type: 3}
+  - {fileID: 21300000, guid: 96f539be2891a6a47a3762181453cfdf, type: 3}
+  - {fileID: 21300000, guid: 07f21ac3a50e2a94f87c416803d70215, type: 3}
+  - {fileID: 21300000, guid: 96f539be2891a6a47a3762181453cfdf, type: 3}
+  - {fileID: 21300000, guid: 07f21ac3a50e2a94f87c416803d70215, type: 3}
+  - {fileID: 21300000, guid: 96f539be2891a6a47a3762181453cfdf, type: 3}
+  - {fileID: 21300000, guid: 07f21ac3a50e2a94f87c416803d70215, type: 3}
+  - {fileID: 21300000, guid: 96f539be2891a6a47a3762181453cfdf, type: 3}
   action: 0
   actionToDo: 0
   objs: []
@@ -2667,6 +2749,7 @@ RectTransform:
   - {fileID: 1629805398}
   - {fileID: 68874182}
   - {fileID: 388329456}
+  - {fileID: 2105552770}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2709,8 +2792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347.9, y: 81.737}
-  m_SizeDelta: {x: 183.45447, y: 36.527008}
+  m_AnchoredPosition: {x: 0.79529, y: 81.737}
+  m_SizeDelta: {x: 890, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760805900
 MonoBehaviour:
@@ -2732,7 +2815,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ea7f25500e8c0b640bd2b653f092369d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -3225,17 +3308,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
-  nextLines:
-  - lines:
-    - real real real
-    - faddssbajfsdbj
-    act: 0
+  - OH MY GOSH! Musk just owned em again. Gotta like that xeet.
+  - Oh, uh, did I say that outloud? Whoopsie daisies!
+  - Ah who cares, no reason to be embarrassed when you're smart!
+  - These bozos don't even know the true future in their faces right now.
+  - That whole eulogy they did earlier had so many errors! I know my AI model could've
+    written it better!
+  - That old geezer Uncle Gerald better start investing in AI soon if he knows what's
+    best. Cut some costs and revolutionize the world! (and give me more money.)
+  - ...
+  - (oh wait this is cousin Harold's funeral right? I better not forget to post a
+    xeet about it for engagement.)
+  nextLines: []
   headers:
   - {fileID: 21300000, guid: 7ae3cfa183614bd4189f1505bb3fa62c, type: 3}
-  - {fileID: 21300000, guid: d1434ef65aa3a5e4f89a223feccbaf16, type: 3}
   action: 0
   actionToDo: 0
   objs: []
@@ -4355,7 +4441,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ea7f25500e8c0b640bd2b653f092369d, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -4450,17 +4536,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - fdsfff
-  nextLines:
-  - lines:
-    - real real real
-    - faddssbajfsdbj
-    act: 0
+  - (Would've stayed in that cell last week if I knew this was gonna happen...)
+  - (Harold, Harold, Harold, man, you thought you were so special.)
+  - (Thought you were the one looked down upon. Heh, at least the family noticed
+    what you did.)
+  - (Took a lot for little old me to get some attention. Mom and Dad were a little
+    too exhausted I guess to give the littlest some time.)
+  - (Then they had to get on my case for all of my little antics.)
+  - (Ya know, it is nice to have their recognition, even if it means breaking the
+    rules a bit.)
+  - (Just a few crashes, wild parties, or some totally legal acts of arson, and they'll
+    be there to see what's up with the problem child.)
+  - (At least I know I'm stacked enough to never get into too much trouble, hehe.)
+  - (Ah... gosh, this funeral really needs something to spice it up.)
+  - (I'm sure they wouldn't mind a little bit of excitement...)
+  nextLines: []
   headers:
-  - {fileID: 21300000, guid: 6c3f721aecb8708438bb126a5fad775e, type: 3}
-  - {fileID: 21300000, guid: d1434ef65aa3a5e4f89a223feccbaf16, type: 3}
+  - {fileID: 21300000, guid: 0f5b00e6ee071e840bcf2004edfd292d, type: 3}
   action: 0
   actionToDo: 0
   objs: []
@@ -5127,9 +5219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2051165434}
   Lines:
-  - GAJKDFLJkldflkjsfjklds
-  - fdsasdfdfs
-  - dfasfdsfdsdaf
+  - (Can't believe these folks told me to stay there, was gonna give them some privacy,
+    but they insisted I make sure to clean things up immediately.
+  - (Well, I guess I can get a glimspe into their rich space for a bit.)
+  - (Not as appealing as I thought though...)
   nextLines: []
   headers:
   - {fileID: 21300000, guid: 6c3f721aecb8708438bb126a5fad775e, type: 3}
@@ -5445,7 +5538,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -6, y: -90.308}
-  m_SizeDelta: {x: 330, y: 365}
+  m_SizeDelta: {x: 360, y: 365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2051165434
 GameObject:
@@ -5507,7 +5600,7 @@ MonoBehaviour:
   canSpeak: 0
   playerAnim: {fileID: 718300624}
   popText: {fileID: 388329460}
-  textToPop: complete your sister's minigame first To Unlock this one.
+  textToPop: complete your sister Jenny's minigame first To Unlock this one.
   textToPopTwo: complete all the minigames to possess the janitor.
 --- !u!70 &2051165437
 CapsuleCollider2D:
@@ -5621,6 +5714,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2105552769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105552770}
+  - component: {fileID: 2105552773}
+  - component: {fileID: 2105552772}
+  - component: {fileID: 2105552771}
+  - component: {fileID: 2105552774}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2105552770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105552769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 750351320}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 617, y: 304}
+  m_SizeDelta: {x: 231.38159, y: 192}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2105552771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105552769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2105552772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105552769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ea7f25500e8c0b640bd2b653f092369d, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'MINIGAMES COMPLETED:
+
+    0 / 5'
+--- !u!222 &2105552773
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105552769}
+  m_CullTransparentMesh: 0
+--- !u!114 &2105552774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105552769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57feff01cf91c224e9c7bdcb54f6e290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2111241091
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,7 +5880,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ea7f25500e8c0b640bd2b653f092369d, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0

@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
     public string textToPop;
     public string textToPopTwo;
 
+    SignDialogue storedSign;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +47,8 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && canSpeak)
         {
+            textSystem.currentLines = 0;
+            textSystem.sign = storedSign;
             textSystem.TurnOn();
             canSpeak = false;
             moveSpeed = 0;
@@ -79,8 +83,9 @@ public class PlayerController : MonoBehaviour
         {
             canSpeak = true;
             textSystem.currentLines = 0;
-            textSystem.sign = collision.gameObject.GetComponent<SignDialogue>();
-            sceneChange = textSystem.sign.ending;
+            //textSystem.sign = collision.gameObject.GetComponent<SignDialogue>();
+            storedSign = collision.gameObject.GetComponent<SignDialogue>();
+            sceneChange = storedSign.ending;
         }
     }
 
@@ -89,6 +94,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Dialogue")
         {
+            storedSign = null;
             canSpeak = false;
             textSystem.sign = null;
         }

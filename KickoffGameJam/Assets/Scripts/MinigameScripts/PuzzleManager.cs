@@ -105,8 +105,8 @@ public class PuzzleManager : MonoBehaviour
 
     public void cloudButton(GameObject button)
     {
-        cloudMeter.value = BadCloudCount / BadCloudLimit;
         BadCloudCount--;
+        cloudMeter.value = (float) BadCloudCount / BadCloudLimit;
         BadCloudSpots.Add(button.transform.position);
         Destroy(button);
     }
